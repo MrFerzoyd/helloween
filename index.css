@@ -4,20 +4,7 @@ body {
   font-family: 'Nunito Sans', sans-serif;
 }
 
- @keyframes polise {
-1%{background-color: #130bf5;}
-10%{background-color: #f50b0b;}
-20%{background-color: #130bf5;}
-30%{background-color: #f50b0b;}
-40%{background-color: #130bf5;}
-50%{background-color: #f50b0b;}
-60%{background-color: #130bf5;}
-70%{background-color: #f50b0b;}
-80%{background-color: #130bf5;}
-90%{background-color: #f50b0b;}
-100%{background-color: #130bf5;}
-
-} 
+ 
 
 @keyframes move {
 1%{background-color: #a7f50b;}
@@ -99,7 +86,7 @@ ul{
     border-radius: 30px;
     border: 3px solid rgba(255, 105, 58, 1);
     animation: polise 2s infinite;
-    
+    z-index: 3;
     &:hover{
         background: rgba(255, 105, 58, 1);
         text-shadow: 0px 0px 10px rgb(255, 255, 255);
@@ -185,4 +172,45 @@ ul{
    
 }
 
+.Category{
 
+    h2{
+        text-align: center;
+        color: white;
+        font-size: 60px;
+        font-weight: 700;
+    }
+}
+.imgs_c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 157px;
+    margin-top: 55px;
+    color: white;
+    text-align: center;
+    h3{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .img_c1{
+        margin-top: -100px;
+    }
+}
+
+ .section2-img{
+        width: 447px;
+        height: 382px;
+        margin-left: 300px;
+    }
+    .img_c2{
+        margin-top: -50px;
+        margin-left: 20px;
+    }
+    .section2_txt{
+        margin-left: 750px;
+        margin-top: -250px;
+        p{
+            margin-top: 50px;
+        }
+    }
