@@ -35,10 +35,7 @@ body {
     ;
          /* animation: move 1s infinite;  */
 }
-:root{
-    --white:white;
-    --black:rgba(0, 0, 0, 0.346);
-}
+
 
 .container{
     max-width: 961px;  
@@ -213,4 +210,101 @@ ul{
         p{
             margin-top: 50px;
         }
+    }
+.tric-trit{
+    margin-top: 200px;
+    h1{
+        font-size: 60px;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+    
+    }
+.row{
+    display: flex;
+    gap: 100px;
+    margin-left: -100px;
+}
+    .card{
+        width: 328px;
+        /* height: 390px; */
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px;
+        transition: 0.5s;
+        background: linear-gradient(to top ,rgba(6, 194, 175, 0.116), rgb(51, 164, 174, 1)) ;
+        h1{
+            font-size: 30px;
+            font-weight: 500;
+            background: rgba(51, 164, 174, 0);
+        }
+        p{
+            background: rgba(51, 164, 174, 0);
+            /* margin: 0 20px; */
+        }
+        img{
+            width: 185px;
+        background: rgba(51, 164, 174, 0);
+            height: 185px;
+            margin:0 65px ;
+        }
+    }
+    .card:hover{
+        transform: translateY(-29px);
+        background:linear-gradient(to top,rgba(4, 141, 127, 0.103) ,rgb(41, 131, 139));
+    }
+}
+
+.sub{
+    margin-top: 100px;
+    display: flex;
+    background: linear-gradient(162.8deg, rgba(51, 164, 174, 0.3) 11.82%, rgba(6, 194, 174, 0) 122.39%);
+
+    color: white;
+    h1{
+        font-size: 60px;
+        font-weight: 700;
+        
+    }
+    p{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    button{
+        color: white;
+        padding: 35px;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+        background: rgba(255, 105, 58, 1);
+        border-radius:0 20px 20px 0;
+        transform: translateY(2px);
+    }
+    input{
+        height: 93px;
+        border: none;
+        width: 300px;
+        background: white;
+        border-radius: 20px  0 0px 20px;
+    }
+    input::placeholder {
+    color: black;     
+    font-size: 20px; 
+    text-align: center;
+    font-weight: 400; 
+    
+}
+
+}
+.left-sub{
+       background: linear-gradient(162.8deg, rgba(51, 164, 174, 0.3) 11.82%, rgba(6, 194, 174, 0) 122.39%);
+    }
+    .right-sub{
+        
+        img{
+                background: linear-gradient(162.8deg, rgba(51, 164, 174, 0.3) 11.82%, rgba(6, 194, 174, 0) 122.39%);
+                
+                
+            }
     }
