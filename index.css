@@ -308,3 +308,52 @@ ul{
                 
             }
     }
+
+.big-p{
+    
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: -200px;
+    
+}
+footer{
+    transform:translateY( 176px);
+    display: flex;
+    gap: 191px;
+}
+.mini-ps{
+    display: flex;
+    gap: 75px;
+    margin-left: -100px;
+    div{
+        color: white;
+        h1{
+            margin: 17px 0;
+        }
+        h2{
+            width: 120px;
+            margin: 9px 0;
+        }
+    }
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color:  rgba(6, 194, 174, 1);
+    border-radius: 0 0 50px 0px;
+    border-right: 20px solid green;
+    border-bottom: 20px solid green;
+    margin: 30px;
+}
+.down-f{
+    img{
+        margin-left: 200px;
+    }
+    font-size: 12px;
+    width: 800px;
+    transform:
+    translateY(250px)
+    translateX(-1000px)
+    ;
+}
